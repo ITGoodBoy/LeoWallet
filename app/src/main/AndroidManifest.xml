@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.celestialapps.leowallet">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/leo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/leo"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name=".ui.activity.SplashActivity" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.activity.LeoWalletActivity"
+            android:theme="@style/AppTheme.LeoWalletTheme"/>
+
+        <activity android:name=".ui.activity.LoginActivity"/>
+        <activity android:name=".ui.activity.BonusActivity" />
+        <activity android:name=".ui.activity.HistoryActivity" />
+        <activity android:name=".ui.activity.ProfileActivity" />
+        <activity android:name=".ui.activity.SendMoneyActivity" />
+        <activity android:name=".ui.activity.UpBalanceActivity" />
+        <activity android:name=".ui.activity.ReceiveMoneyActivity" />
+
+
+    </application>
+</manifest>

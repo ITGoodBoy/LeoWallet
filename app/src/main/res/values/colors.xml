@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c60000</color>
+    <color name="colorPrimaryDark">#9b0000</color>
+    <color name="colorAccent">#ff3939</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBottomBar">#7b7b7b</color>
+    <color name="colorInactive">#83838d</color>
+    <color name="colorSplashBackground">#ff6464</color>
+    <color name="colorSearchBackground">#eff4f7</color>
+    <color name="colorCardBackground">#2f2f39</color>
+    <color name="colorBlue">#0000ff</color>
+    <color name="colorDividerBackground">#e7e7e7</color>
+    <color name="colorWalletBackground">#1effffff</color>
+</resources>
